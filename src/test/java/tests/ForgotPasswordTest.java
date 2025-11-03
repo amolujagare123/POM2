@@ -5,5 +5,7 @@ public class ForgotPasswordTest {
     int b,c;
     c = a+b;
     System.out.println(c);
+    int d=23;
+
 
 }
