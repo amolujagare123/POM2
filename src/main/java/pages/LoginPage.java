@@ -42,4 +42,9 @@ public class LoginPage {
     public void clickForgotPassword() {
         lnkForgotPassword.click();
     }
+
+    public void pravinTest()
+    {
+        System.out.println("Pravin Changes added.")
+    }
 }
