@@ -51,4 +51,9 @@ public class AddCustomerPage {
     public void clickAdd() {
         btnAdd.click();
     }
+
+    public void typeAddress2(String addr) {
+        txtAddress.clear();
+        txtAddress.sendKeys(addr);
+    }
 }

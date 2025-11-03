@@ -25,6 +25,7 @@ public class ForgotPasswordPage {
     public void typeFavoriteMovie(String movie) {
         txtFavoriteMovie.clear();
         txtFavoriteMovie.sendKeys(movie);
+        System.out.println("prajakta");
     }
 
     public void clickSubmit() {
