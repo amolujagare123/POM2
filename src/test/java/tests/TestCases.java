@@ -5,6 +5,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.*;
 
+import java.util.Objects;
+
 public class TestCases extends BaseTest {
 
     @Test(priority = 1)
@@ -50,7 +52,15 @@ public class TestCases extends BaseTest {
         add.clickAdd();
 
         Assert.assertTrue(driver.getCurrentUrl().contains("customers")
-                        || driver.getPageSource().toLowerCase().contains("success"),
+                        || Objects.requireNonNull(driver.getPageSource()).toLowerCase().contains("success"),
                 "Customer was not added successfully.");
+
+        System.out.println("PravinTest");
+    }
+
+    @Test
+    public void amolTest()
+    {
+        System.out.println("amolTest");
     }
 }

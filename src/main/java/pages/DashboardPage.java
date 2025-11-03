@@ -19,4 +19,9 @@ public class DashboardPage {
     public void clickAddCustomer() {
         lnkAddCustomer.click();
     }
+
+    public void newAStest()
+    {
+        System.out.println("This is new test");
+    }
 }
