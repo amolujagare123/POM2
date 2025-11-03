@@ -57,4 +57,10 @@ public class TestCases extends BaseTest {
 
         System.out.println("PravinTest");
     }
+
+    @Test
+    public void amolTest()
+    {
+        System.out.println("amolTest");
+    }
 }
