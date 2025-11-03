@@ -6,6 +6,6 @@ public class ForgotPasswordTest {
     c = a+b;
     System.out.println(c);
     int d=23;
-
+    char = 'A';
 
 }
