@@ -53,4 +53,10 @@ public class TestCases extends BaseTest {
                         || driver.getPageSource().toLowerCase().contains("success"),
                 "Customer was not added successfully.");
     }
+
+    @Test
+    public void amolTest()
+    {
+        System.out.println("amolTest");
+    }
 }
