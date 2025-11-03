@@ -45,6 +45,6 @@ public class LoginPage {
 
     public void pravinTest()
     {
-        System.out.println("Pravin Changes added.")
+        System.out.println("Pravin Changes added.");
     }
 }
