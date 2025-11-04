@@ -6,5 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LoginTest {
 
       System.out.println("--- Login Test ---");
+      System.out.println("Hello World");
 
 }
