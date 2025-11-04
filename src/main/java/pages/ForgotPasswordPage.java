@@ -34,5 +34,6 @@ public class ForgotPasswordPage {
 
     public void clickDashboard() {
         lnkDashboard.click();
+        System.out.println("yaa yeaah");
     }
 }
